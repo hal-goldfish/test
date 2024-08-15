@@ -1,6 +1,5 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
-import ShaderExample from './Test_gl';
 
 export default function Dashboard({ auth }) {
     return (
@@ -17,9 +16,6 @@ export default function Dashboard({ auth }) {
                     </div>
                 </div>
             </div>
-
-            <ShaderExample />
-
         </AuthenticatedLayout>
     );
 }
