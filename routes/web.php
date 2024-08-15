@@ -39,7 +39,7 @@ Route::post('/save', [BookController::class, 'save'])
 ->name('book.save');
 
 
-// テスト
+// あああ
 Route::get('/test_gl', function() {
     return Inertia::render('Test_gl');
 })->name('test_gl');
